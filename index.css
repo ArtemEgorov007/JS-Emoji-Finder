@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	min-height: 100vh;
+	background: #edeef3;
+}
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+}
+.header {
+	position: relative;
+	padding: 68px 0 140px 0;
+	background: linear-gradient(92.33deg, #087990 0.12%, #055160 100%);
+}
+.headconteiner {
+	text-align: center;
+}
+.headtitle {
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 87px;
+	color: #cff4fc;
+}
+.headtext {
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 36px;
+	color: #cff4fc;
+}
+.inputcontainer {
+	text-align: center;
+}
+.headinput {
+	width: 820px;
+	height: 64px;
+	position: absolute;
+	bottom: 0;
+	padding-left: 32px;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 21px;
+	color: #abb5be;
+}
+.cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 19px;
+	/* display: flex;
+	justify-content: center; */
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.boxcube {
+	padding: 24px;
+	background: #ffffff;
+	border: 1px solid #dee2e6;
+	border-radius: 4px;
+	max-width: 316px;
+}
+.main {
+	padding: 80px 0 49px 0;
+	background-color: #edeef3;
+}
+.card {
+	width: 316px;
+	height: 184px;
+	background-color: #ffffff;
+	text-align: center;
+	padding: 24px;
+}
+.card__emoji {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 48px;
+	color: #68717a;
+}
+.card__title {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	margin: 18px 0 12px 0;
+	font-size: 17px;
+	line-height: 28px;
+	text-decoration-line: underline;
+	color: #000000;
+}
+.card__text {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	color: #3f444a;
+}
+
+.litesybtext {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	color: #3f444a;
+}
+.footer {
+	padding-top: 13px;
+	padding-bottom: 17px;
+	border-top: 1px solid #6c757d;
+}
+.foottext {
+	margin-top: 13px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	text-align: center;
+	color: #6c757d;
+}
